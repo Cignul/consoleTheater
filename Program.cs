@@ -38,6 +38,25 @@ namespace ConsoleTheater
 
       myTheater.PrintMovies();
 
+      string userChoice = Console.ReadLine();
+      if (userChoice == "1")
+      {
+        Console.WriteLine($"{titanic.Title}");
+      }
+      if (userChoice == "2")
+      {
+        Console.WriteLine($"{gladiator.Title}");
+      }
+      if (userChoice == "3")
+      {
+        Console.WriteLine($"{forestGump.Title}");
+      }
+      if (userChoice == "4")
+      {
+        Console.WriteLine($"{breakfastClub.Title}");
+      }
+
+
     }
   }
 }
