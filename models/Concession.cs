@@ -15,5 +15,11 @@ namespace ConsoleTheater.Models
     {
       System.Console.WriteLine($"Purchase of {Name} for {Price}");
     }
+    public Concession(string name, decimal price)
+    {
+      Name = name;
+      Price = price;
+      Type = "Concession";
+    }
   }
 }
