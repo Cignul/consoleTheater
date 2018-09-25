@@ -25,6 +25,21 @@ namespace ConsoleTheater.Models
       }
     }
 
+    public List<Ticket> BuyTickets(string showtime, int tickets)
+    {
+      if (Showtimes.ContainsKey(showtime) && Showtimes[showtime] >= tickets)
+      {
+        List<Ticket> purchased = new List<Ticket>();
+        for (int i = 0; i < tickets; i++)
+        {
+          purchased.Add(new Ticket(showtime, Movie, 15));
+
+        }
+        Showtimes[showtime] -= tickets;
+        return purchased;
+      }
+      return null;
+    }
 
     public Room(Movie movie, int maxSeats)
     {
