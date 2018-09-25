@@ -14,13 +14,14 @@ namespace ConsoleTheater
       Movie gladiator = new Movie("Gladiator");
       Movie forestGump = new Movie("ForestGump");
       Movie breakfastClub = new Movie("BreakfastClub");
+
       myTheater.Movies.Add(titanic);
       myTheater.Movies.Add(gladiator);
       myTheater.Movies.Add(forestGump);
       myTheater.Movies.Add(breakfastClub);
 
-      myTheater.AddRoom(titanic, 100);
 
+      myTheater.AddRoom(titanic, 100);
       myTheater.AddRoom(gladiator, 101);
       myTheater.AddRoom(forestGump, 102);
       myTheater.AddRoom(breakfastClub, 103);
