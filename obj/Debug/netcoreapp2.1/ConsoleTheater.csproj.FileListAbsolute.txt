@@ -1,0 +1,11 @@
+C:\source\codeworks\ConsoleTheater\obj\Debug\netcoreapp2.1\ConsoleTheater.csprojAssemblyReference.cache
+C:\source\codeworks\ConsoleTheater\obj\Debug\netcoreapp2.1\ConsoleTheater.csproj.CoreCompileInputs.cache
+C:\source\codeworks\ConsoleTheater\obj\Debug\netcoreapp2.1\ConsoleTheater.AssemblyInfoInputs.cache
+C:\source\codeworks\ConsoleTheater\obj\Debug\netcoreapp2.1\ConsoleTheater.AssemblyInfo.cs
+C:\source\codeworks\ConsoleTheater\bin\Debug\netcoreapp2.1\ConsoleTheater.deps.json
+C:\source\codeworks\ConsoleTheater\bin\Debug\netcoreapp2.1\ConsoleTheater.runtimeconfig.json
+C:\source\codeworks\ConsoleTheater\bin\Debug\netcoreapp2.1\ConsoleTheater.runtimeconfig.dev.json
+C:\source\codeworks\ConsoleTheater\bin\Debug\netcoreapp2.1\ConsoleTheater.dll
+C:\source\codeworks\ConsoleTheater\bin\Debug\netcoreapp2.1\ConsoleTheater.pdb
+C:\source\codeworks\ConsoleTheater\obj\Debug\netcoreapp2.1\ConsoleTheater.dll
+C:\source\codeworks\ConsoleTheater\obj\Debug\netcoreapp2.1\ConsoleTheater.pdb

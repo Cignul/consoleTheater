@@ -24,6 +24,10 @@ namespace ConsoleTheater.Models
     {
       Rooms.Add(new Room(movie, seats));
     }
+    public void AddShowtime(string showtime, int roomIndex)
+    {
+      Rooms[roomIndex].AddShowtime(showtime);
+    }
 
     public void PrintMovies()
     {
