@@ -42,7 +42,11 @@ namespace ConsoleTheater
       string userChoice = Console.ReadLine();
       if (userChoice == "1")
       {
+        //  Ticket titanicTicket("3:00","titanic", 4){} 
         Console.WriteLine($"{titanic.Title}");
+        myTheater.PrintTickets();
+        Console.WriteLine($"PrintTickets()");
+        // Console.WriteLine($"tickets are: {myTheater.}");
       }
       if (userChoice == "2")
       {

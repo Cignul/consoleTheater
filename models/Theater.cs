@@ -11,6 +11,8 @@ namespace ConsoleTheater.Models
 
     private List<Room> Rooms { get; set; }
 
+    public List<Ticket> Tickets { get; set; }
+
     public void Initialize()
 
     {
@@ -24,6 +26,11 @@ namespace ConsoleTheater.Models
     {
       Rooms.Add(new Room(movie, seats));
     }
+    //I GAVE UP HERE - UNCOMMENT AND CONTINUE
+    // public void AddTicket(Ticket ticket, int seats)
+    // {
+    //   Tickets.Add(new Ticket(ticket, ConsoleTheater.Models.Movie, 5.00m));
+    // }
     public void AddShowtime(string showtime, int roomIndex)
     {
       Rooms[roomIndex].AddShowtime(showtime);
@@ -42,6 +49,19 @@ namespace ConsoleTheater.Models
         System.Console.WriteLine();
       }
 
+    }
+    public void PrintTickets()
+    {
+      for (int i = 0; i < Tickets.Count; i++)
+      {
+        System.Console.WriteLine($@"
+       {i + 1}.Price: {Tickets[i].Price} 
+       ");
+
+        {
+          System.Console.WriteLine("WOULD YOU like to buy a ticket (testing)??");
+        }
+      }
     }
 
     public Theater(string name)
